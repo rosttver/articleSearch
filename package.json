@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^0.4.5",
     "gulp": "^3.9.0",
     "gulp-livereload": "^3.8.1",
     "gulp-sass": "^2.1.1"
