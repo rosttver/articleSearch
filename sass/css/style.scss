@@ -1,0 +1,118 @@
+h1 {
+	font-family: 'Roboto' !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	p {
+		margin-top: 10px;
+		font-size: 14px;
+		text-transform: initial;
+		font-weight: initial;
+		line-height: 15pt;
+	}
+}
+
+.top {
+	display: none;
+    min-height: 93px;
+    // padding-top: 30px;
+    background-color: #404040;
+    color: white;
+    text-transform: uppercase;
+    nav {
+        float: right;
+		
+		ul {
+        	list-style: none;
+	        li {
+	        	float: left;
+	        	height: 93px;
+	        	border-right: 1px solid black;
+	            a {
+	            	color: #9b9b9b;
+		            display: block;
+		            float: left;
+		            padding: 35px 15px;
+		            font-size: 12px;
+		            color: #9b9b9b;
+		      		height: 93px;  
+			            &:hover {
+			                color: white;
+			                background-color: #333;
+			                text-decoration: none;
+		            	}
+	            }
+	          	&:first-of-type {
+	          		border-left: 1px solid black;
+	          	}
+	    	}
+    }
+
+    }
+    
+}
+
+.middle {
+	min-height: 50px;
+}
+
+.bottom {
+	// position: absolute;
+	// bottom: 0;
+	// width: 100%;
+	display: none;
+    min-height: 93px;
+    background-color: #404040;
+    color: white;
+    h3 {
+    	// text-shadow: 1px 1px 2px black, 0 0 1em blue;
+    	font-size: 20px;
+    	text-align: left;
+    	color: #3399ff;
+    	text-transform: uppercase;
+    }
+}
+
+#search {
+	width: 100%;
+	min-height: 75px;
+	font-size: 24px;
+	padding-left: 20px;
+	margin: 20px 0;
+}
+
+.news-block {
+	min-height: 350px;
+	background-color: #eaeaea;
+	display: none;
+	-webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+    padding: 0;
+    &:hover {
+		transform: scale(1.1, 1.1);
+		-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+		z-index: 9;
+    }
+}
+
+.news-title {
+		padding: 10px;
+}
+
+.news-image-block {
+	text-align: center;
+	img {
+		margin-top: 10px;
+	}
+}
+.title_url {
+	color: black;
+	font-size: 12px;
+}
+
+[class*="col-"] {
+    background-clip: padding-box;
+    border: 20px solid transparent;
+}
