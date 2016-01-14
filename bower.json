@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Rostyslav Tveritinov <rosstver@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rosttver/second",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "jquery": "~2.2.0"
+  }
+}
